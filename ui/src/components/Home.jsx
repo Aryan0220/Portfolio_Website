@@ -1,7 +1,7 @@
-import react from "react";
+import React from "react";
 
 const Home = () => {
-  return <div id="home">home</div>;
+  return <section id="home">Home</section>;
 };
 
 export default Home;
