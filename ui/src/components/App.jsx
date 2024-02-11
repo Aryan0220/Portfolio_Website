@@ -1,14 +1,20 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Home from "./Home";
+import Contact from "./Contact";
+import About from "./About";
+import Project from "./Project";
+import Skill from "./Skill";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <section id="project">project</section>
-      <section id="skills">skills</section>
-      <section id="about">about</section>
-      <section id="contact">contact</section>
+      <Home />
+      <Project />
+      <Skill />
+      <About />
+      <Contact />
     </div>
   );
 };
