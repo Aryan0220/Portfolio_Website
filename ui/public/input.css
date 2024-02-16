@@ -29,12 +29,16 @@ nav{
     height: 9vh;
 }
 
+.img{
+    background-image: url("./todo.png");
+}
+
 /* h1{
     color: #666be7;
     -webkit-text-fill-color: transparent !important;
     -webkit-text-stroke: 2px #666be7 !important;
 } */
 
-#home{
+#home, #project{
     height: 91vh;
 }
