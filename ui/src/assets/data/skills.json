@@ -1,0 +1,22 @@
+[
+    {
+        "id": "0",
+        "title": "Front-End",
+        "list" : ["HTML","CSS","JavaScrpit","React","TailWind CSS","Bootstrap"]
+    },
+    {
+        "id": "1",
+        "title": "Back-End",
+        "list" : ["Node.js","Express.js","REST API"]
+    },
+    {
+        "id": "2",
+        "title": "Database",
+        "list" : ["PostgreSQL","MySQL"]
+    },
+    {
+        "id": "3",
+        "title": "Dev Tools",
+        "list" : ["Git","GitHub","PostMan"]
+    }
+]

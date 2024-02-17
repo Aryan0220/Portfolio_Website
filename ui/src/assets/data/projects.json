@@ -1,0 +1,27 @@
+[
+    {
+        "id": "0",
+        "title": "ToDo List",
+        "description": "The ToDo List web application allows users to create tasks, update status or delete them.",
+        "demo": "https://to-do-list-eight-sable.vercel.app/",
+        "source": "https://github.com/Aryan0220/ToDoList",
+        "img": "/images/todo.png"
+    },
+    {
+        "id": "1",
+        "title": "Weather App",
+        "description": "Displays the weather of the location entered by the user, Using OpenWeather API.",
+        "demo": "https://weather-app-mqky.onrender.com/",
+        "source": "https://github.com/Aryan0220/Weather.App",
+        "img": "/images/weatherApp.png"
+    },
+    {
+        "id": "2",
+        "title": "Simon Game",
+        "description": "The classic Simon Game with different levels of difficulty.",
+        "demo": "https://aryan0220.github.io/Simon-Game/",
+        "source": "https://github.com/Aryan0220/Simon-Game",
+        "img": "/images/simonGame.png"
+    }
+]   
+
