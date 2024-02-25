@@ -7,7 +7,7 @@ const Contact = () => {
     <section id="contact" className="h-[80vh]">
       <div className="flex flex-col w-full text-center items-center h-full">
         <h2 className="text-8xl pt-12 mb-10">Contact Me</h2>
-        <div className="flex items-center justify-center p-6 gap-6 mt-10 border-slate-200 border-3 w-fit rounded-3xl">
+        <div className="flex items-center justify-center p-6 gap-6 mt-10 border-indigo-500 dark:border-slate-200 border-3 w-fit rounded-3xl">
           <div className="flex items-center gap-2">
             <svg
               className="h-12 fill-indigo-500"
@@ -22,7 +22,7 @@ const Contact = () => {
             </svg>
             <a
               href="mailto:aryan.gorde4@gmail.com"
-              className="text-2xl no-underline hover:text-indigo-400 hover:underline-offset-0.5 hover:underline hover:decoration-slate-200"
+              className="text-2xl no-underline hover:text-indigo-400 hover:underline-offset-0.5 hover:underline hover:decoration-zinc-800 dark:hover:decoration-slate-200"
             >
               aryan.gorde4@gmail.com
             </a>
@@ -37,7 +37,7 @@ const Contact = () => {
             </svg>
             <a
               href="https://www.linkedin.com/in/aryan-bargal-48818a246/"
-              className="text-2xl no-underline hover:text-indigo-400 hover:underline-offset-0.5 hover:underline hover:decoration-slate-200"
+              className="text-2xl no-underline hover:text-indigo-400 hover:underline-offset-0.5 hover:underline hover:decoration-zinc-800 dark:hover:decoration-slate-200"
             >
               LinkedIn
             </a>

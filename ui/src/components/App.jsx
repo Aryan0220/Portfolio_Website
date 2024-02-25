@@ -6,10 +6,12 @@ import About from "./About";
 import Project from "./Project";
 import Skill from "./Skill";
 import HomeBtn from "./HomeButton";
+import Mode from "./Mode";
 
 const App = () => {
   return (
     <div>
+      <Mode />
       <Navbar />
       <Home />
       <HomeBtn />

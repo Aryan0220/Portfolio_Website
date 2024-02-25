@@ -10,7 +10,9 @@ const Skill = () => {
           {skills.map((skill) => {
             return (
               <div className="flex flex-col justify-center">
-                <h2 className="text-5xl text-indigo-200 mb-2">{skill.title}</h2>
+                <h2 className="text-5xl dark:text-indigo-200 text-zinc-700 mb-2">
+                  {skill.title}
+                </h2>
                 <ul className="list-none">
                   {skill.list.map((item) => {
                     return <li className="text-3xl my-2">{item}</li>;

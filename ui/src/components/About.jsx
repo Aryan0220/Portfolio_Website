@@ -14,7 +14,9 @@ const About = () => {
           <ul className="flex flex-col list-style-none text-justify h-full justify-center w-3/6 mr-16 gap-4">
             {about.map((item) => {
               return (
-                <li className="text-lg text-indigo-100">{item.paragraph}</li>
+                <li className="text-lg dark:text-indigo-100">
+                  {item.paragraph}
+                </li>
               );
             })}
           </ul>

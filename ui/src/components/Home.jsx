@@ -10,10 +10,10 @@ const Home = () => {
         />
         <div className="flex flex-col justify-center items-center">
           <p className="text-indigo-500">Hello, I'm</p>
-          <h1 className="text-6xl font-bold mt-0 mb-1 text-indigo-200 tracking-wider">
+          <h1 className="text-6xl font-bold mt-0 mb-1 text-zinc-700 dark:text-indigo-200 tracking-wider">
             Aryan
           </h1>
-          <h2 className="text-2xl m-2 text-indigo-100">
+          <h2 className="text-2xl m-2 dark:text-indigo-100">
             A FullStack Web Developer
           </h2>
           <div className="flex flex-row gap-2">

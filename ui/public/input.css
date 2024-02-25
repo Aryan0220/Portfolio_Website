@@ -17,18 +17,7 @@
     background: #dfd7d7;
 }
 
-/* body{
-    background-image: url("./images/blob-scene-haikei.png");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    background-attachment: fixed;
-} */
-
-
-
-/* h1{
-    color: #666be7;
-    -webkit-text-fill-color: transparent !important;
-    -webkit-text-stroke: 2px #666be7 !important;
-} */
+body{
+    @apply transition-all duration-200
+}
 

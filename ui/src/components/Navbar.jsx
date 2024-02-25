@@ -1,6 +1,7 @@
 import React from "react";
 import NavElements from "./Nav_elements";
 import BlueButton from "./BlueButton";
+import Mode from "./Mode";
 
 const Navbar = () => {
   return (

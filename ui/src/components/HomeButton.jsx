@@ -24,7 +24,7 @@ const HomeBtn = () => {
   return (
     <button
       type="button"
-      className="z-50 fixed h-10 w-10 border-3 rounded-full bg-transparent bottom-10 right-10 p-1 hover:bg-indigo-500 hover:border-indigo-500"
+      className="z-50 fixed h-10 w-10 border-3 rounded-full bg-transparent bottom-6 right-6 p-1 hover:bg-slate-200 hover:boder-slate-200 dark:hover:bg-indigo-500 dark:hover:border-indigo-500"
       onClick={scrollToTop}
       style={{ display: visible ? "inline" : "none" }}
     >
