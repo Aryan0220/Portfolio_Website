@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <section id="contact" className="h-[80vh]">
       <div className="flex flex-col w-full text-center items-center h-full">
-        <h2 className="text-8xl pt-12 mb-10">Contact Me</h2>
-        <div className="flex items-center justify-center p-6 gap-6 mt-10 border-indigo-500 dark:border-slate-200 border-3 w-fit rounded-3xl">
+        <h2 className="max-sm:text-6xl text-8xl pt-12 mb-10">Contact Me</h2>
+        <div className="flex max-sm:flex-col items-center justify-center p-6 max-sm:px-2 gap-6 mt-10 border-indigo-500 dark:border-slate-200 border-3 w-fit rounded-3xl">
           <div className="flex items-center gap-2">
             <svg
               className="h-12 fill-indigo-500"

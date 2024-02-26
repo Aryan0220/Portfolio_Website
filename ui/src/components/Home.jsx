@@ -3,9 +3,10 @@ import React from "react";
 const Home = () => {
   return (
     <section id="home" className="h-[91vh]">
-      <div className="flex flex-row justify-center items-center h-full gap-20">
+      <div className="flex max-sm:flex-col flex-row justify-center items-center h-full gap-20">
         <img
           src="/images/default Profile Pic.jpg"
+          alt="Profile Pic"
           className="h-72 w-72 bg-cover bg-no-repeat bg-center rounded-full"
         />
         <div className="flex flex-col justify-center items-center">
