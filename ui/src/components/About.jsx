@@ -3,7 +3,7 @@ import about from "../assets/data/about.json";
 
 const About = () => {
   return (
-    <section id="about" className="h-fit max-sm:hidden">
+    <section id="about" className="h-fit max-lg:hidden">
       <div className="flex flex-col w-full text-center h-full">
         <h2 className="max-sm:text-6xl text-8xl pt-8 mb-10">About</h2>
         <div className="flex justify-center items-center gap-6">

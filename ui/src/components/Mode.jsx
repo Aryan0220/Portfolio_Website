@@ -5,7 +5,7 @@ const Mode = () => {
 
   const toggleDarkMode = () => {
     document.querySelector("html").classList.toggle("dark");
-    setDarkMode(!darkMode);
+    setDarkMode((prev) => !prev);
   };
 
   return (
