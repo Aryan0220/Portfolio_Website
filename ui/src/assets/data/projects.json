@@ -1,14 +1,22 @@
 [
     {
         "id": "0",
-        "title": "ToDo List",
-        "description": "The ToDo List web application allows users to create tasks, update status or delete them.",
-        "demo": "https://to-do-list-eight-sable.vercel.app/",
-        "source": "https://github.com/Aryan0220/ToDoList",
-        "img": "/images/todo.png"
+        "title": "Rating Analysis",
+        "description": "Are ticket selling companies bias towards rating movies better to sell more tickets?",
+        "demo": "https://nbviewer.org/github/Aryan0220/Data-Visualization/blob/main/reviews.ipynb",
+        "source": "https://github.com/Aryan0220/Data-Visualization/",
+        "img": "/images/analysis.png"
     },
     {
         "id": "1",
+        "title": "Sorting Visualizer",
+        "description": "Visualizes various sorting algorithms.",
+        "demo": "https://aryan0220.github.io/Sorting_Visualizer/",
+        "source": "https://github.com/Aryan0220/Sorting_Visualizer",
+        "img": "/images/sortingVisualizer.png"
+    },
+    {
+        "id": "2",
         "title": "Weather App",
         "description": "Displays the weather of the location entered by the user, Using OpenWeather API.",
         "demo": "https://weather-app-mqky.onrender.com/",
@@ -16,12 +24,32 @@
         "img": "/images/weatherApp.png"
     },
     {
-        "id": "2",
+        "id": "3",
+        "title": "ToDo List",
+        "description": "The ToDo List web application allows users to create tasks, update status or delete them.",
+        "demo": "https://to-do-list-eight-sable.vercel.app/",
+        "source": "https://github.com/Aryan0220/ToDoList",
+        "img": "/images/todo.png"
+    },
+    {
+        "id": "4",
+        "title": "Quadruped Robot",
+        "description": "A four legged robot taht moves like a Spider.",
+        "demo": "https://drive.google.com/file/d/1srcoTdNTgVicRPifzsCYk0CvObXnXmZs/view?usp=sharing",
+        "source": "https://github.com/Aryan0220/Spider_Robot",
+        "img": "/images/spidy.jpg"
+    },
+    {
+        "id": "5",
         "title": "Simon Game",
         "description": "The classic Simon Game with different levels of difficulty.",
         "demo": "https://aryan0220.github.io/Simon-Game/",
         "source": "https://github.com/Aryan0220/Simon-Game",
         "img": "/images/simonGame.png"
     }
-]   
+]
+
+    
+    
+
 
