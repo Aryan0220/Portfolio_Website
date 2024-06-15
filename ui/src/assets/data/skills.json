@@ -2,7 +2,7 @@
     {
         "id": "0",
         "title": "Front-End",
-        "list" : ["HTML","CSS","JavaScrpit","React","TailWind CSS","Bootstrap"]
+        "list" : ["HTML","CSS","JavaScrpit","Next.js","React","TailWind CSS","Bootstrap"]
     },
     {
         "id": "1",
