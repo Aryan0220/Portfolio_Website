@@ -2,7 +2,7 @@
     {
         "id": "0",
         "title": "Team Up",
-        "description": "Real time collaborative whiteboard.",
+        "description": "Real time collaborative whiteboard, With Real Time Cursors.",
         "demo": "https://team-up-liard.vercel.app/",
         "source": "https://github.com/Aryan0220/Team-UP",
         "img": "/images/teamup.png"

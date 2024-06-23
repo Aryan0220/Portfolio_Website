@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NavElements from "./Nav_elements";
 import BlueButton from "./BlueButton";
+import ResumeButton from "./Resume-button";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
         <NavElements href="#about" name="ABOUT" />
         <NavElements href="#contact" name="CONTACT" />
         <li className="ml-20">
-          <BlueButton
+          <ResumeButton
             name="Resume"
             link="https://drive.google.com/file/d/10WHdYpp_5numIGagkMY3wbY-dPEfAHqj/view?usp=sharing"
           />

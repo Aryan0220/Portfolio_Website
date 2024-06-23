@@ -5,15 +5,21 @@ const Mode = () => {
 
   const toggleDarkMode = () => {
     document.querySelector("html").classList.toggle("dark");
+    if (darkMode) {
+      document.querySelector("body").style.backgroundImage =
+        "url(/images/animated-bg.svg)";
+    } else {
+      document.querySelector("body").style.backgroundImage =
+        "url(/images/animated-bg-light.svg)";
+    }
     setDarkMode((prev) => !prev);
   };
-
   return (
     <button
       onClick={toggleDarkMode}
       className="bg-zinc-900 rounded-full p-2 dark:bg-slate-200 max-md:bottom-6 max-md:left-6 lg:top-7 right-6 fixed h-fit w-fit"
     >
-      {!darkMode ? (
+      {darkMode ? (
         <svg
           className="h-6 w-6 fill-indigo-500"
           viewBox="-2.2 2.8 26 26"
