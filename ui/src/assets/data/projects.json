@@ -32,6 +32,14 @@
         "img": "/images/weatherApp.png"
     },
     {
+        "id": "5",
+        "title": "Ascii World",
+        "description": "See your surroundings in the form of ascii characters/ ascii-art.",
+        "demo": "https://ascii-world.vercel.app/",
+        "source": "https://github.com/Aryan0220/ascii-world",
+        "img": "/images/ascii.png"
+    },
+    {
         "id": "4",
         "title": "ToDo List",
         "description": "The ToDo List web application allows users to create tasks, update status or delete them.",
