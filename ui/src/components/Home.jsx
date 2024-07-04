@@ -1,26 +1,46 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
     <section id="home" className="h-[91vh]">
-      <div className="flex max-sm:flex-col flex-row justify-center items-center h-full gap-20">
+      <div
+        className="flex max-sm:flex-col flex-row
+       justify-center items-center h-full gap-[6rem]"
+      >
         <img
           src="/images/Profile Pic.jpg"
           alt="Profile Pic"
           className="h-72 w-72 bg-cover bg-no-repeat bg-center rounded-full"
         />
         <div className="flex flex-col justify-center items-center">
-          <p className="text-indigo-500">Hello, I'm</p>
-          <h1 className="text-6xl font-bold mt-0 mb-1 text-zinc-700 dark:text-indigo-200 tracking-wider">
+          <p className="text-lg text-zinc-900 dark:text-indigo-500">
+            Hello, I'm
+          </p>
+          <h1 className="text-6xl font-bold mt-0 mb-3 text-zinc-700 dark:text-indigo-200 tracking-wider">
             Aryan
           </h1>
-          <h2 className="text-2xl m-2 dark:text-indigo-100">
-            A FullStack Web Developer
-          </h2>
-          <div className="flex flex-row gap-2">
+          <div className="text-[1.75rem] leading-8 font-bold dark:text-indigo-400 text-center">
+            <Typewriter
+              options={{
+                strings: [
+                  `Full Stack<br>Web<br>Developer`,
+                  `Data Analyst`,
+                  `Machine<br>Learning<br>Enthusiast`,
+                  `Robotics<br>Enthusiast`,
+                ],
+                skipAddStyles: false,
+                delay: 100,
+                deleteSpeed: 30,
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
+          <div className="flex flex-row mt-3 gap-2">
             <a href="https://github.com/Aryan0220">
               <svg
-                className="fill-indigo-500"
+                className="dark:fill-indigo-500 fill-zinc-800"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -33,7 +53,7 @@ const Home = () => {
             </a>
             <a href="https://www.linkedin.com/in/aryan-bargal-48818a246/">
               <svg
-                className="fill-indigo-500"
+                className="dark:fill-indigo-500 fill-zinc-800"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"

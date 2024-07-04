@@ -17,11 +17,12 @@ const Mode = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className="bg-zinc-900 rounded-full p-2 dark:bg-slate-200 max-md:bottom-6 max-md:left-6 lg:top-7 right-6 fixed h-fit w-fit"
+      className="bg-zinc-900 rounded-full p-2 dark:bg-slate-200 z-10
+       max-md:bottom-6 max-md:left-6 lg:top-7 right-6 fixed h-fit w-fit"
     >
       {darkMode ? (
         <svg
-          className="h-6 w-6 fill-indigo-500"
+          className="h-6 w-6 fill-indigo-100"
           viewBox="-2.2 2.8 26 26"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"

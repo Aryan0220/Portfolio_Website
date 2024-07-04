@@ -6,7 +6,7 @@ import projects from "../assets/data/projects.json";
 const ProCards = (props) => {
   return projects.map((project) => {
     return (
-      <div className="flex flex-col items-center mb-6 border-3 dark:border-slate-200 border-indigo-500 rounded-3xl w-[19rem] p-6 justify-between h-[26rem] backdrop-blur-md bg-gray-500/30 dark:bg-indigo-800/20">
+      <div className="flex flex-col items-center mb-6 border-3 dark:border-slate-200 border-zinc-800 rounded-3xl w-[19rem] p-6 justify-between h-[26rem] backdrop-blur-md bg-gray-500/30 dark:bg-indigo-800/20">
         <img
           src={project.img}
           alt="Project Preview"

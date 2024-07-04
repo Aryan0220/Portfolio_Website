@@ -6,7 +6,7 @@ import ResumeButton from "./Resume-button";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="flex flex-row justify-around items-center m-4 h-[9vh]">
+    <nav className="flex flex-row justify-around items-center backdrop-blur-md m-4 h-[9vh]">
       <div className="text-4xl">Aryan Bargal</div>
       <ul className="flex flex-row gap-8 max-lg:hidden list-none items-center ml-8">
         <NavElements href="#project" name="PROJECTS" />
