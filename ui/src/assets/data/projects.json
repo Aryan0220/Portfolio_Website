@@ -1,6 +1,14 @@
 [
     {
         "id": "0",
+        "title": "ProtoTwit",
+        "description": "Real time Streaming platform.",
+        "demo": "https://prototwit.vercel.app/",
+        "source": "https://github.com/Aryan0220/nowshowing",
+        "img": "/images/prototwit.png"
+    },
+    {
+        "id": "1",
         "title": "Team Up",
         "description": "Real time collaborative whiteboard, With Real Time Cursors.",
         "demo": "https://team-up-liard.vercel.app/",
@@ -8,7 +16,7 @@
         "img": "/images/teamup.png"
     },
     {
-        "id": "1",
+        "id": "2",
         "title": "Rating Analysis",
         "description": "Are ticket selling companies bias towards rating movies better to sell more tickets?",
         "demo": "https://nbviewer.org/github/Aryan0220/Data-Visualization/blob/main/reviews.ipynb",
@@ -16,7 +24,7 @@
         "img": "/images/analysis.png"
     },
     {
-        "id": "2",
+        "id": "3",
         "title": "Sorting Visualizer",
         "description": "Visualizes various sorting algorithms.",
         "demo": "https://aryan0220.github.io/Sorting_Visualizer/",
@@ -24,28 +32,12 @@
         "img": "/images/sortingVisualizer.png"
     },
     {
-        "id": "3",
-        "title": "Weather App",
-        "description": "Displays the weather of the location entered by the user, Using OpenWeather API.",
-        "demo": "https://weather-app-mqky.onrender.com/",
-        "source": "https://github.com/Aryan0220/Weather.App",
-        "img": "/images/weatherApp.png"
-    },
-    {
-        "id": "5",
-        "title": "Ascii World",
-        "description": "See your surroundings in the form of ascii characters/ ascii-art.",
-        "demo": "https://ascii-world.vercel.app/",
-        "source": "https://github.com/Aryan0220/ascii-world",
-        "img": "/images/ascii.png"
-    },
-    {
         "id": "4",
-        "title": "ToDo List",
-        "description": "The ToDo List web application allows users to create tasks, update status or delete them.",
-        "demo": "https://to-do-list-eight-sable.vercel.app/",
-        "source": "https://github.com/Aryan0220/ToDoList",
-        "img": "/images/todo.png"
+        "title": "Sudoku OpenCV",
+        "description": "Solving Sudoku using Computer Vision and Backtracking.",
+        "demo": "https://drive.google.com/file/d/1-BdiVwt4grhmvi-Rh_R3_BHLj8rDD2dp/view?usp=sharing",
+        "source": "https://github.com/Aryan0220/Sudoku-OpenCV",
+        "img": "/images/sudo.png"
     },
     {
         "id": "5",
@@ -57,11 +49,43 @@
     },
     {
         "id": "6",
+        "title": "Ascii World",
+        "description": "See your surroundings in the form of ascii characters/ ascii-art.",
+        "demo": "https://ascii-world.vercel.app/",
+        "source": "https://github.com/Aryan0220/ascii-world",
+        "img": "/images/ascii.png"
+    },
+    {
+        "id": "7",
+        "title": "Robotic Hand",
+        "description": "RControl a 3D-Printed Hand using gestures and OpenCV",
+        "demo": "https://drive.google.com/file/d/1_KnlpukgPmqZGao4uis0OMGfhMoZrCRu/view?usp=drive_link",
+        "source": "https://github.com/Aryan0220/Robotics-Hand",
+        "img": "/images/hand.jpeg"
+    },
+    {
+        "id": "8",
+        "title": "Weather App",
+        "description": "Displays the weather of the location entered by the user, Using OpenWeather API.",
+        "demo": "https://weather-app-mqky.onrender.com/",
+        "source": "https://github.com/Aryan0220/Weather.App",
+        "img": "/images/weatherApp.png"
+    },
+    {
+        "id": "9",
         "title": "Simon Game",
         "description": "The classic Simon Game with different levels of difficulty.",
         "demo": "https://aryan0220.github.io/Simon-Game/",
         "source": "https://github.com/Aryan0220/Simon-Game",
         "img": "/images/simonGame.png"
+    },
+    {
+        "id": "10",
+        "title": "ToDo List",
+        "description": "The ToDo List web application allows users to create tasks, update status or delete them.",
+        "demo": "https://to-do-list-eight-sable.vercel.app/",
+        "source": "https://github.com/Aryan0220/ToDoList",
+        "img": "/images/todo.png"
     }
 ]
 

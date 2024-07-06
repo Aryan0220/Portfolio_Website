@@ -17,11 +17,11 @@
     {
         "id": "3",
         "title": "Dev Tools",
-        "list" : ["Git","GitHub","PostMan"]
+        "list" : ["Git","GitHub","VS Code","Vim","PostMan"]
     },
     {
         "id": "4",
-        "title": "Data Science",
-        "list" : ["NumPy","Pandas","Matplotlib","Seaborn","Scikit Learn"]
+        "title": "Libraries",
+        "list" : ["NumPy","Pandas","Matplotlib","Seaborn","Scikit Learn","OpenCV"]
     }
 ]
