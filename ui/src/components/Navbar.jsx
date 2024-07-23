@@ -16,7 +16,7 @@ const Navbar = () => {
         <li className="ml-20">
           <ResumeButton
             name="Resume"
-            link="https://drive.google.com/file/d/1LgfYy3qe7Xi8g-V6qOee6SjsVIH-EGnU/view?usp=sharing"
+            link="https://github.com/Aryan0220/jbOAaYOxyu1S/raw/main/Aryan_Resume.pdf"
           />
         </li>
       </ul>
